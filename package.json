@@ -1,0 +1,33 @@
+{
+  "name": "vcr-proxy",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A proxy that records and replay HTTP interractions",
+  "keywords": [
+    "proxy",
+    "VCR",
+    "record",
+    "replay",
+    "tests"
+  ],
+  "author": {
+    "name": "Guillaume Potier",
+    "email": "guillaume@wisembly.com",
+    "url": "http://guillaumepotier.com/"
+  },
+  "main": "./src/proxy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillaumepotier/VCRProxy"
+  },
+  "dependencies": {
+    "nock": "~2.10",
+    "http-proxy": "~1.11"
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+
+  }
+}
