@@ -1,0 +1,18 @@
+module.exports = {
+    debug: true,
+    proxy: {
+        port: 1337
+    },
+    target: {
+        host: 'http://localhost',
+        port: 8888
+    },
+    recorder: {
+        cassette: {
+            name: 'my_fist_cassette',
+            path: __dirname + '/../recordings'
+        },
+        enable_reqheaders_recording: false,
+        enable_reqbody_recording: false
+    }
+};
